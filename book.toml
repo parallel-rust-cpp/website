@@ -1,0 +1,16 @@
+[book]
+authors = ["Matias Lindgren"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Comparing parallel Rust and C++"
+
+[output.html.search]
+enable = false
+
+[output.html.playpen]
+copy-js = false
+
+[preprocessor.expand_vars]
+command = "python3 expand_vars.py"
+renderer = ["html"]
