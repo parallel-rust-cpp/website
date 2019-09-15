@@ -7,4 +7,4 @@
 [i5-8250U-topology-img]: img/i5-8250U/topology.png
 [xeon-multi-core-img]: img/Xeon-E3-1230-v5/multi_core.png
 [xeon-single-core-img]: img/Xeon-E3-1230-v5/single_core.png
-[xeon-topology-img]: img/Xeon-E3-1230/v5_topology.png
+[xeon-topology-img]: img/Xeon-E3-1230-v5/topology.png
