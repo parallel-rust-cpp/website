@@ -22,10 +22,13 @@ You can find the benchmark program on [GitHub][shortcut-comparison-github].
 
 ### Compiler versions
 
+* C++ (GCC): `g++ 7.4.0-1ubuntu1`
+* C++ (Clang): `clang 6.0.0-1ubuntu2`
 * Rust: `rustc 1.38.0-nightly`
-* C++: `clang 6.0.0-1ubuntu2`
 
-todo
+![][xeon-multi-core-img]
+
+![][xeon-single-core-img]
 
 ## Benchmark 2: Intel i5-4690k
 
@@ -37,10 +40,31 @@ todo
 
 ### Compiler versions
 
+* C++ (GCC): `g++ 9.1.0`
+* C++ (Clang): `clang 8.0.1`
 * Rust: `rustc 1.38.0-nightly`
-* C++: `clang 8.0.1`
 
-todo
+![][i5-4690k-multi-core-img]
+
+![][i5-4690k-single-core-img]
+
+## Benchmark 3: Intel i5-8250U
+
+* Mid-range laptop CPU with 4 physical cores and 8 hardware threads.
+* Maximum clock speed **3.4 GHz**.
+* [Intel specifications][ark-intel-i5-8250U].
+
+![CPU topology of i5 8250U][i5-8250U-topology-img]
+
+### Compiler versions
+
+* C++ (GCC): `g++ 9.1.0`
+* C++ (Clang): `clang 8.0.1`
+* Rust: `rustc 1.38.0-nightly`
+
+![][i5-8250U-multi-core-img]
+
+![][i5-8250U-single-core-img]
 
 {{#include LINKS.md}}
 {{#include IMAGES.md}}

@@ -1,4 +1,5 @@
 [ark-intel-i5-4690k]: https://ark.intel.com/content/www/us/en/ark/products/80811/intel-core-i5-4690k-processor-6m-cache-up-to-3-90-ghz.html
+[ark-intel-i5-8250U]: https://ark.intel.com/content/www/us/en/ark/products/124967/intel-core-i5-8250u-processor-6m-cache-up-to-3-40-ghz.html
 [ark-intel-xeon-e3-1230]: https://ark.intel.com/content/www/us/en/ark/products/88182/intel-xeon-processor-e3-1230-v5-8m-cache-3-40-ghz.html
 [benchmark-1]: ./results.md#benchmark-1-intel-xeon-e3-1230-v5
 [benchmark-main-highlight]: {{github-repo-url}}/blob/{{git-blob-version}}/src/main/main.cpp#L21-L23
