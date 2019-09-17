@@ -1,6 +1,6 @@
 # Benchmark results
 
-All 8 implementations have so far been benchmarked on two different Intel CPUs.
+All 8 implementations have so far been benchmarked on three different Intel CPUs.
 You can find the benchmark program on [GitHub][shortcut-comparison-github].
 
 ## Benchmark parameters
@@ -15,7 +15,7 @@ You can find the benchmark program on [GitHub][shortcut-comparison-github].
 
 * Mid-range server/workstation CPU with 4 physical cores and 8 hardware threads (hyper-threading).
 * Maximum clock speed **3.8 GHz**.
-* [Intel specifications][ark-intel-xeon-e3-1230]
+* [Intel specifications][ark-intel-xeon-e3-1230].
 * [Wikichip][wikichip-xeon-e3-1230].
 
 ![CPU topology of Xeon E3 1230 v5][xeon-topology-img]

@@ -1,6 +1,6 @@
 # Introduction
 
-In this tutorial, we will implement a Rust program that attempts to utilize 100% of the theoretical capacity of two relatively modern, mid-range CPUs.
+In this tutorial, we will implement a Rust program that attempts to utilize 100% of the theoretical capacity of three relatively modern, mid-range CPUs.
 We'll use an existing, highly efficient [C++ implementation][ppc-chapter-2] as a reference point to compare how our Rust program is doing.
 We start with a simple baseline solution of 3 nested `for`-loops, and keep improving on the baseline solution incrementally, implementing 8 versions in total, until the program is going so fast it can hardly go faster.
 We'll approach the problem from the point of view of a C++ programmer who already knows how the reference implementation solves the problem, but is interested in an approach using the Rust language.
